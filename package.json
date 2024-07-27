@@ -1,5 +1,6 @@
 {
-  "name": "seahorse-vite-ts",
+  "homepage": "https://icediver.github.io/seahorse-game/",
+  "name": "seahorse",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,5 +19,8 @@
     "vite-plugin-checker": "^0.6.4",
     "vite-plugin-inspect": "^0.8.3",
     "vite-plugin-sass": "^0.1.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
