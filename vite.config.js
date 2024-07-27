@@ -3,7 +3,6 @@ import checker from "vite-plugin-checker";
 import path from "path";
 
 export default {
-  base: "/",
   plugins: [
     Inspect(),
     checker({
@@ -18,4 +17,5 @@ export default {
       "@": path.resolve(__dirname, "./src/game"),
     },
   },
+  base: "./",
 };
